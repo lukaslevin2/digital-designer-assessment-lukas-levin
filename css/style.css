@@ -1,0 +1,295 @@
+.section {
+      background-image: url('https://drive.google.com/uc?id=1j7pf8IoeByhR0JoWKQhLkz3taqdoHRhW');
+      background-size: cover;
+      background-position: center;
+      height: 1700px !important;
+      position: relative;
+    }
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 5px;
+      padding: 5% !important;
+      margin: 5% !important;
+    }
+    .column img {
+      width: 425px;
+      height: 300px;
+    }
+
+.section {
+      background-image: url('https://drive.google.com/uc?id=1j7pf8IoeByhR0JoWKQhLkz3taqdoHRhW');
+      background-size: cover;
+      background-position: center;
+      height: 1400px;
+      position: relative;
+    }
+
+.toplogo1{
+  height: 20px;
+  margin-top: 15% !important;
+  margin-left: 70%;
+  opacity: 50%;
+    }
+
+.toplogo2{
+  height: 70px;
+  margin-top: 10% !important;
+  opacity: 50%;
+  margin-right: 50%;
+    }
+
+.toprow{
+  padding-left: 
+}
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 5px;
+      padding: 100px;
+    }
+    .column img {
+      width: 425px;
+      height: 300px;
+    }
+
+h1, h3, p, ul{
+  color: white !important;
+  font-family: helvetica, Open Sans;
+}
+
+h3{
+  font-size: 20px !important;
+}
+
+ul, h3{
+  text-align: left;
+  margin: 5% !important;
+}
+
+Ul{
+  line-height: 40px;
+}
+
+.heading{
+  margin-top: 5%;
+  font-size: 9rem;
+}
+
+.subheading{
+  margin-bottom: 10%;
+  font-size: 1.7rem;
+}
+
+.productheading{
+  font-size: 5rem !important;
+  text-align: center;
+}
+
+.section{
+  padding-bottom: 15%;
+}
+
+.section-2 {
+  background-image: url('https://drive.google.com/uc?id=1g_TBGap_KlPB5BqQOT_eerLUiT1G15oY');
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+}
+
+.overlay-2 {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 25px;
+  padding: 50px;
+}
+
+.formbutton{
+  background-color: #ffffff;
+  border: none;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.form-control {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.submit-btn {
+  transition: background-color 0.3s ease;
+  margin-bottom: 5% !important;
+}
+
+.formbutton:hover {
+  background-color: #cccccc;
+  color: #fff;
+  border: none;
+}
+
+.formheading{
+  font-size: 5rem;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.formsubheading{
+  font-size: 2rem;
+  color: #ffffff;
+  text-align: center;
+  margin-Bottom: 4%;
+}
+
+label{
+  color: #ffffff;
+}
+
+.form-control{
+  padding: 5% !important;
+}
+
+.columnimages{
+  width: 300px;
+}
+
+.bottomlogo1{
+  height: 30px;
+  margin-top: 10%;
+  margin-left: 40%;
+}
+
+.bottomlogo2{
+  height: 40px;
+  margin: 10%;
+}
+
+/* responsive */
+
+/* Mobile Styles */
+@media only screen and (max-width: 767px) {
+  .toplogo1 {
+    height: 20px;
+    margin-top: 30%;
+    margin-left: 0%;
+  }
+
+  .toplogo2 {
+    height: 50px;
+    margin-top: 30%;
+    margin-right: 0%;
+  }
+
+  .heading {
+    font-size: 7rem;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .subheading {
+    font-size: 2rem;
+    margin-bottom: 20%;
+  }
+  
+  .productheading{
+  font-size: 4rem !important;
+  text-align: center;
+}
+
+  h3 {
+    font-size: 2rem !important;
+  }
+
+  ul {
+    font-size: 1.5rem;
+  }
+
+  .column img {
+    width: 100%;
+    height: auto;
+  }
+
+  .columnimages {
+    width: 100%;
+  }
+
+  .overlay {
+    padding: 50px;
+  }
+
+  .section {
+    height: 2600px !important;
+    padding-bottom: 10%;
+  }
+
+  .section-2 {
+    padding: 20px 0;
+  }
+
+  .overlay-2 {
+    padding: 20px;
+    margin: 5% !important;
+  }
+
+  .formheading {
+    font-size: 2.5rem;
+  }
+
+  .formsubheading {
+    font-size: 1.2rem;
+    margin-bottom: 10%;
+  }
+
+  .bottomlogo1 {
+    height: 20px;
+    margin-top: 20%;
+    margin-left: 25%;
+  }
+
+  .bottomlogo2 {
+    height: 30px;
+    margin: 20%;
+    margin-left: 35%;
+  }
+}
+
+/* Modal styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+  position: relative;
+  margin: 15% auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 700px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+
+.modal-image {
+  width: 100%;
+  height: auto;
+}
+
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
